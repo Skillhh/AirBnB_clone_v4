@@ -6,7 +6,6 @@ from flask import Flask, render_template, url_for
 from models import storage
 from uuid import uuid4
 
-
 # flask setup
 app = Flask(__name__)
 app.url_map.strict_slashes = False
@@ -29,6 +28,7 @@ def hbnb_filters(the_id=None):
     """
     handles request to custom template with states, cities & amentities
     """
+    cache_id = uuid4()
     state_objs = storage.all('State').values()
     states = dict([state.name, state] for state in state_objs)
     amens = storage.all('Amenity').values()
@@ -42,6 +42,7 @@ def hbnb_filters(the_id=None):
                            places=places,
                            users=users,
                            cache_id=cache_id)
+
 
 if __name__ == "__main__":
     """
