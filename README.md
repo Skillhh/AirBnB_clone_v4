@@ -217,7 +217,8 @@ github repo
 * Kimberly Wong, [kjowong](https://github.com/kjowong) | [@kjowong](https://twitter.com/kjowong) | [kjowong@gmail.com](kjowong@gmail.com)
 * Carrie Ybay, [hicarrie](https://github.com/hicarrie) | [@hicarrie_](https://twitter.com/hicarrie_)
 * Jared Heck, [jarehec](https://github.com/jarehec) | [@jarehec](https://twitter.com/jarehec)
-
+* Giovanny Andrés Ortegón Espitia, [Skillhh](https://github.com/Skillhh) | [@__sklgio__](https://twitter.com/_sklgio__) | [934@holbertonschoo.com](934@holbertonschool.com)
+* Doniben Jimenez Jaramillo, [Doniben](https://github.com/Doniben) | [@programistonto](https://twitter.com/programistonto) | [921@holbertonschool.com](921@gholbertonschool.com)
 ## License
 
 MIT License
