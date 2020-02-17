@@ -79,7 +79,7 @@
 	    <ul class="popover">
 	      {% for amenity in amens|sort(attribute='name') %}
 		  <LI>
-				<input style="padding-right: 10px;" data-name=":amenity_name" type="checkbox">
+				<input style="padding-right: 10px;" type="checkbox" data-id="{{ amenity.id }}" data-name="{{ amenity.name }}" >
 				{{ amenity.name }}
 		  </LI>
 	      {% endfor %}
