@@ -11,4 +11,29 @@ header {
 	height: 70px;
 	width: 100%;
 	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+}
+#api_status {
+	float: right;
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	border-style: 5px solid;
+	background-color: #cccccc;
+	position: absolute;
+	top: 50%; 	
+  	right: 30px;
+   	transform: translate(-50%, -50%);
+}
+.available {
+	float: right;
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	border-style: 5px solid;
+	background-color: #ff545f;
+	position: absolute;
+	top: 50%; 	
+  	right: 30px;
+	transform: translate(-50%, -50%);
 }
