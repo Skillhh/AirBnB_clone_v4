@@ -24,10 +24,18 @@ $(document).ready(function () {
     }
     // Show Amenities on .amenities h4
     if (amens_names.length !== 0) {
-      $('.amenities h4').add('this').text(amens_names);
+      $('.amenities h4').add(this).text(amens_names);
     } else {
       // Clear h4 tag to keep position of box
-      $('.amenities h4').empty().append('<h4>&nbsp;</4>');
+      $('.amenities h4').empty().append('<h4>&nbsp;</h4>');
+    }
+  });
+  const url = 'http://0.0.0.0:5001/api/v1/status/';
+  $.getJSON(url, (data) => {
+    if (data.status === 'OK') {
+      $('DIV#api_status').addClass('available');
+    } else {
+      $('DIV#api_status').removeClass('available');
     }
   });
 });
